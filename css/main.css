@@ -1,0 +1,124 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+textarea::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+body input:focus:required:invalid, body textarea:focus:required:invalid {}
+body input:required:valid, body textarea:required:valid{}
+
+body{font-family: "RobotoRegular", sans-serif; font-size: 16px; line-height: 1.1;}
+
+a{
+	-webkit-transition: all ease-in .2s;
+	-o-transition: all ease-in .2s;
+	transition: all ease-in .2s;
+}
+
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+
+.input-wrap{position: relative;}
+
+#success{display: none;}
+
+
+
+#container{
+ position:absolute;
+ left:0px;
+ top:0px;
+ z-index: 0;
+}
+.lightning{
+ display:none;
+ position:absolute;
+ left:0px;
+ top:0px;
+ z-index: 0;
+}
+body{
+ background-color:#000000;
+}
+p{
+ color:#33FF66;
+ font-family: Tahoma, Verdana, Arial,
+ Helvetica, sans-serif;
+ font-size:12px;
+}
+#text_top {
+ position:relative;
+ z-index: 4;
+}
+#frame {
+	position:absolute;
+	left:100px;
+	top:100px;
+	width:545px;
+	height:629px;
+	background-image:url(../images/frame.png);
+	z-index: 3;
+	overflow: hidden;
+}
+
+#pic_box{
+	position:relative; 
+	left:91px; 
+	top:84px; 
+	width:367px; 
+	height:460px; 
+	z-index: 2;
+	overflow: hidden;
+}
+
+.face{
+	position:relative;
+	left:0px;
+	top:0px;	
+	z-index: 1;
+}
+
+#head{
+	height:172px;
+}
+
+#eyes{
+	height:79px; 
+}
+
+#nose{
+	height:86px; 
+}
+
+#mouth{
+	height:117px; 
+}
